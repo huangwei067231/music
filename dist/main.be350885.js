@@ -441,7 +441,7 @@ function () {
 // console.log(song)
 
 
-window.p = new Player('#player');
+new Player('#player');
 },{"./icons.js":"src/javascript/icons.js","./swrapper.js":"src/javascript/swrapper.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -470,7 +470,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57711" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55549" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
